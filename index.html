@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Cursos de Inglés y Francés</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#contacto">Información de contacto</a></li>
+                <li><a href="#quien-es">Quién mantiene el sitio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contacto">
+        <h1>Información de Contacto</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section id="quien-es">
+        <h1>Quién Mantiene el Sitio</h1>
+        <p>Este sitio web es mantenido por Juan Perez. Puedes contactarlo en <a href="mailto:juan.perez@gmail.com">juan.perez@gmail.com</a>.</p>
+    </section>
+
+    <section id="catalogo">
+        <h1>Catálogo de Cursos</h1>
+        <label for="categoria">Selecciona una categoría:</label>
+        <select id="categoria">
+            <option value="ingles">Inglés</option>
+            <option value="frances">Francés</option>
+        </select>
+
+        <div class="cursos-container" id="ingles-cursos">
+            <div class="curso">
+                <h2>Curso de Inglés 1</h2>
+                <a href="programas/ingles-curso1.pdf" download>Descargar Programa</a>
+            </div>
+            <div class="curso">
+                <h2>Curso de Inglés 2</h2>
+                <a href="programas/ingles-curso2.pdf" download>Descargar Programa</a>
+            </div>
+            <div class="curso">
+                <h2>Curso de Inglés 3</h2>
+                <a href="programas/ingles-curso3.pdf" download>Descargar Programa</a>
+            </div>
+        </div>
+
+        <div class="cursos-container" id="frances-cursos">
+            <div class="curso">
+                <h2>Curso de Francés 1</h2>
+                <a href="programas/frances-curso1.pdf" download>Descargar Programa</a>
+            </div>
+            <div class="curso">
+                <h2>Curso de Francés 2</h2>
+                <a href="programas/frances-curso2.pdf" download>Descargar Programa</a>
+            </div>
+            <div class="curso">
+                <h2>Curso de Francés 3</h2>
+                <a href="programas/frances-curso3.pdf" download>Descargar Programa</a>
+            </div>
+        </div>
+    </section>
+    <section id="enlaces">
+        <div>
+            <h1>Enlaces.</h1>
+            <li><a href="https://catedras.linti.unlp.edu.ar/mod/quiz/attempt.php?attempt=79778&cmid=38211">ACTIVIDAD 1 - PROYECTO DE SOFTWARE</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1CpX4qpi5k7de7mZiqgeJezKTZ4lHpC9Y?hl=es-419">Drive videos.</a></li>
+        </div>
+    </section>
+</body>
+</html>
